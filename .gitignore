@@ -4,8 +4,9 @@
 # Log files
 *.log
 
-# Package files
+# Package files (but allow lib/ directory for dependencies)
 *.jar
+!lib/*.jar
 *.war
 *.ear
 *.nar
